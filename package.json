@@ -1,0 +1,20 @@
+{
+  "name": "cleannode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "write": "node index.js",
+    "format": "npx prettier --write \"**/*.{html,js}\"",
+    "format:json": "npx prettier --write \"**/*.json\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
